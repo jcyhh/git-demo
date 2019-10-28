@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border-top: 3px solid #f3554c;
+}
+nav input{
+    border: 1px solid #f3554c;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+#input{
+    position: relative;
+    left: -300px;
+}
+#input a{
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f3554c;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+#input a:hover{
+    background-color: #c13730;
+    text-decoration: none;
+}
+#nav{
+    position: relative;
+    top: 20px;
+}
+.nav-box,.content-top{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+table span{
+    margin-right: 10px;
+}
+table a{
+    color: black;
+}
+table a:hover{
+    color: #c13730;
+    text-decoration: none;
+}
+.content{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+.content-box{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.top{
+    width: 60%;
+    margin: 0 auto;
+}
+.content-top{
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+.tab-box{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+.ad-box{
+    width: 78%;
+    height: 100%;
+    background-color: white;
+}
+.contain-bottom{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    padding: 5px 10px;
+}
+.ad-box h3,.contain-bottom h3{
+    color: #f3554c;
+    padding-left: 10px;
+}
+.ad-box img{
+    height: 300px;
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ul a{
+    color: black;
+}
+ul a:hover{
+    color: black;
+}
+ul img{
+    position: relative;
+    left: 8px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 12px;
+    list-style: none;
+    width: 18%;
+    height: 300px;
+}
+ul li:hover{
+    border: 1px solid #f3554c;
+}
+.txt{
+    height: 42px;
+    overflow: hidden;
+}
+.num{
+    font-size: 16px;
+    font-weight: bold;
+}
+.pri{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f3554c;
+}
+.line{
+    color: gray;
+    text-decoration: line-through;
+}
+.pri-box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
